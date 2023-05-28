@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.input {
+  display: flex;
+  padding: 4px;
+  margin: 20px;
+}
+.friends {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.friend h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aqua;
+  color: azure;
+  margin: 5px;
+  padding: 3px;
+  border: 5px;
+  border-bottom: black;
+}
+.friend {
+  margin-top: 10px;
+}
+.friendContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.friendContainer button {
+  height: 50px;
+  width: 60px;
+  border: 2px solid black;
+}
